@@ -3,6 +3,7 @@
     var default_options, notify_methods;
     default_options = {
       'title': "Notification",
+      'body': "Body",
       'closeTime': 5000
     };
     notify_methods = {
@@ -37,6 +38,7 @@
         if (typeof body !== 'string') {
           throw "Notification: body must 'String'";
         }
+        default_options.body = body;
         options = $.extend(default_options, arguments_options);
         if (notify_methods.isSupported()) {
           notify_methods.permission_request();

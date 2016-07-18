@@ -1,6 +1,7 @@
 (($) ->
   default_options =
     'title' : "Notification"
+    'body' : "Body"
     'closeTime' : 5000
 
   notify_methods =
@@ -33,6 +34,7 @@
       throw "Notification: body must 'String'" if typeof body != 'string'
 
       # merge default_options and arguments_options to options
+      default_options.body = body
       options = $.extend default_options, arguments_options
 
       if notify_methods.isSupported()
