@@ -15,6 +15,9 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+      'bower_components/jquery/dist/jquery.min.js',
+      'bower_components/jasmine-jquery/lib/jasmine-jquery.js',
+      'push_notification.js',
       'test/unit/*Spec.js'
     ],
 
