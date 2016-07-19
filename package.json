@@ -1,0 +1,29 @@
+{
+  "name": "jquery_push_notification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "push_notification.js",
+  "dependencies": {},
+  "devDependencies": {
+    "karma": "^1.1.1",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-opera-launcher": "^1.0.0",
+    "karma-safari-launcher": "^1.0.0"
+  },
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmsuechan/jquery_push_notification.git"
+  },
+  "author": "asmsuechan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asmsuechan/jquery_push_notification/issues"
+  },
+  "homepage": "https://github.com/asmsuechan/jquery_push_notification#readme"
+}
