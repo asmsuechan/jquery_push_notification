@@ -25,7 +25,7 @@
 
     permission_request: () ->
       if Notification.permission is "default"
-        Notification.requestPermission
+        Notification.requestPermission()
 
   $.extend
 

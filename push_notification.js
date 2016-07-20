@@ -25,7 +25,7 @@
       },
       permission_request: function() {
         if (Notification.permission === "default") {
-          return Notification.requestPermission;
+          return Notification.requestPermission();
         }
       }
     };
