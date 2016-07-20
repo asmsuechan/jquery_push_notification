@@ -12,7 +12,7 @@ The following is the most simple usecase.
 $.notify("body")
 ```
 
-[Demosite](https://jquery-push-notification.herokuapp.com/)
+[Demosite](https://asmsuechan.github.io/jquery_push_notification/)
 
 ## Usage
 Before you use, include jquery.
