@@ -4,7 +4,8 @@
     default_options = {
       'title': "Notification",
       'body': "Body",
-      'closeTime': 5000
+      'closeTime': 5000,
+      'icon' : ""
     };
     notify_methods = {
       create_notification: function(options) {
