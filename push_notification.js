@@ -1,12 +1,6 @@
 (function() {
   (function($) {
-    var default_options, notify_methods;
-//    default_options = {
-//      'title': "Notification",
-//      'body': "Body",
-//      'closeTime': 5000,
-//      'icon' : ""
-//    };
+    var notify_methods;
     notify_methods = {
       create_notification: function(options) {
         return new Notification(options.title, options);
@@ -40,7 +34,7 @@
           throw "Notification: body must 'String'";
         }
 
-        default_options = {
+        var default_options = {
           'title': "Notification",
           'body': "Body",
           'closeTime': 5000,
