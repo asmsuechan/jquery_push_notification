@@ -1,9 +1,4 @@
 (($) ->
-  default_options =
-    'title' : "Notification"
-    'body' : "Body"
-    'closeTime' : 5000
-
   notify_methods =
     # create notification
     create_notification: (options) ->
@@ -32,6 +27,12 @@
     notify: (body, arguments_options) ->
       throw "Notification: few arguments" if arguments.length < 1
       throw "Notification: body must 'String'" if typeof body != 'string'
+
+      # set default options
+      default_options =
+        'title' : "Notification"
+        'body' : "Body"
+        'closeTime' : 5000
 
       # merge default_options and arguments_options to options
       default_options.body = body
