@@ -4,6 +4,8 @@ JqueryPushNotification
 ## 概要
 このライブラリはhtml5のNotificationAPIをjqueryで使用できるようにしたものです。
 
+![デモgif](https://github.com/asmsuechan/asmsuechan.github.io/blob/master/jquery_push_notification/notification.gif)
+
 ## デモ
 もっともシンプルな使用例は以下のように書きます
 ```
