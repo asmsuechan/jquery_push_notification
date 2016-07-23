@@ -22,12 +22,12 @@ Before you use, include jquery.
 
 If you'd like to use edge, you can include by the following.
 ```
-<script src="https://cdn.rawgit.com/asmsuechan/jquery_push_notification/master/push_notification.js"></script>
+<script src="https://rawgit.com/asmsuechan/jquery_push_notification/master/push_notification.js"></script>
 ```
 
 You can also use minified file.
 ```
-<script src="https://cdn.rawgit.com/asmsuechan/jquery_push_notification/master/push_notification.min.js"></script>
+<script src="https://rawgit.com/asmsuechan/jquery_push_notification/master/push_notification.min.js"></script>
 ```
 
 ## Further Reading

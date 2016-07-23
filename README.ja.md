@@ -20,12 +20,12 @@ $.notify("body")
 
 エッジを使いたいのであればrawgitからインクルードしてください
 ```
-<script src="https://cdn.rawgit.com/asmsuechan/jquery_push_notification/master/push_notification.js"></script>
+<script src="https://rawgit.com/asmsuechan/jquery_push_notification/master/push_notification.js"></script>
 ```
 
 .minファイルも使用できます
 ```
-<script src="https://cdn.rawgit.com/asmsuechan/jquery_push_notification/master/push_notification.min.js"></script>
+<script src="https://rawgit.com/asmsuechan/jquery_push_notification/master/push_notification.js"></script>
 ```
 
 ## もっと見る
