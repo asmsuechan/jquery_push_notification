@@ -6,8 +6,6 @@ Overview
 ## Description
 This library expands jquery for use html5 NotificationAPI.
 
-![demogif](https://github.com/asmsuechan/asmsuechan.github.io/blob/master/jquery_push_notification/notification.gif)
-
 ## Demo
 The following is the most simple usecase.
 ```
