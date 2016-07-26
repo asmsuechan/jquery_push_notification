@@ -40,7 +40,7 @@ I'm looking forward to your PRs!
 
 ## Licence
 
-[MIT](https://github.com/asmsuechan/jquery_push_notification/blob/master/LICENCE)
+[MIT](https://github.com/asmsuechan/jquery_push_notification/blob/master/LICENSE)
 
 ## Author
 
