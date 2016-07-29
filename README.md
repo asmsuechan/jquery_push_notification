@@ -1,7 +1,7 @@
 JqueryPushNotification
 ====
 
-Overview
+[日本語](https://github.com/asmsuechan/jquery_push_notification/blob/master/README.ja.md)
 
 ## Description
 This library expands jquery for use html5 NotificationAPI.
