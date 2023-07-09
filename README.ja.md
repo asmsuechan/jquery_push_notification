@@ -2,7 +2,7 @@ JqueryPushNotification
 ====
 
 ## 概要
-このライブラリはhtml5のNotificationAPIをjqueryで使用できるようにしたものです。
+このライブラリはNotificationAPIをjQueryで使用できるようにしたものです。
 
 ## デモ
 もっともシンプルな使用例は以下のように書きます
@@ -13,7 +13,7 @@ $.notify("body")
 [デモサイト](https://asmsuechan.github.io/jquery_push_notification/)
 
 ## 使い方
-このライブラリを使用するにはjqueryが必要になります
+このライブラリを使用するにはjQueryが必要になります
 ```
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 ```
